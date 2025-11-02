@@ -11,7 +11,7 @@ function draw() {
     
     for (let i = 0; i < diameters.length; i++) {
         fill (0,0,colourVals[i]);
-        ellipse(width/2, height/2, diameters[i]);
+        circle(width/2, height/2, diameters[i]);
     }
 }
 
